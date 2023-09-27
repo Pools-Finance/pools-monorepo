@@ -7,6 +7,9 @@ import 'tsconfig-paths/register';
 
 import './src/helpers/setupTests';
 
+import dotenv from 'dotenv';
+dotenv.config();
+
 import { task } from 'hardhat/config';
 import { TASK_TEST } from 'hardhat/builtin-tasks/task-names';
 import { HardhatRuntimeEnvironment } from 'hardhat/types';
