@@ -18,6 +18,9 @@ export const NETWORKS = [
   'sepolia',
   'base',
   'fantom',
+  'shimmer',
+  'shimmertestnet',
+  'fantomtestnet',
 ];
 
 export type Network = (typeof NETWORKS)[number];

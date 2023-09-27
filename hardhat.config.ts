@@ -358,4 +358,23 @@ export default {
       },
     ],
   },
+  networks: {
+    shimmer: {
+      url: process.env.SHIMMER_URL,
+      accounts: [process.env.SHIMMER_PRIVATE_KEY_1]
+    },
+    shimmertestnet: {
+      url: process.env.SHIMMERTESTNET_URL,
+      accounts: [process.env.SHIMMERTESTNET_PRIVATE_KEY_1]
+    },
+    fantomtestnet: {
+      url: process.env.FANTOMTESTNET_URL,
+      accounts: [process.env.FANTOMTESTNET_PRIVATE_KEY_1]
+    },
+    defaultConfig: {
+      url: process.env.DEFAULT_URL,
+      gasPrice: "auto",
+      gasMultiplier: 1
+    }
+  },
 };
