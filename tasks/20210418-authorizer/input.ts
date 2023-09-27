@@ -42,4 +42,13 @@ export default {
   fantom: {
     admin: '0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C',
   },
+  shimmer: {
+    admin: '0xabcd',
+  },
+  shimmertestnet: {
+    admin: '0xabcd',
+  },
+  fantomtestnet: {
+    admin: '0xabcd',
+  },
 };
