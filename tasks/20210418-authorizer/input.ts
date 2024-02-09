@@ -46,7 +46,7 @@ export default {
     admin: '0xabcd',
   },
   shimmertestnet: {
-    admin: '0xabcd',
+    admin: '0xdd7069963Ac79E5D879C9Cc9Fd7131Ba822609C3',
   },
   fantomtestnet: {
     admin: '0xabcd',
