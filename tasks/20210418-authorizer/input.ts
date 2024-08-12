@@ -51,4 +51,7 @@ export default {
   fantomtestnet: {
     admin: '0xabcd',
   },
+  iotatestnet: {
+    admin: '0xdd7069963Ac79E5D879C9Cc9Fd7131Ba822609C3',
+  },
 };
