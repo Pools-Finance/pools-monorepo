@@ -21,6 +21,7 @@ export const NETWORKS = [
   'shimmer',
   'shimmertestnet',
   'fantomtestnet',
+  'iotatestnet',
 ];
 
 export type Network = (typeof NETWORKS)[number];
